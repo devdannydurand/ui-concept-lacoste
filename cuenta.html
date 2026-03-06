@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOWCOST</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/cuenta.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    </head>
+    <header>
+        <div class="listaPadreHeader"> 
+            <div class="barraHeader">
+                <div class="logo">
+                    <a href="index.html"><img src="imagenes-usadas/lacoste square logo.png" width="180px"></a>
+                </div>
+                <nav class="secciones">
+                    <ul>
+                        <li class="menuRaiz">
+                            <a href="">MUJER</a>
+                            <ul class="submenu">
+                                <li><a href="mujer-ropa.html">Ropa</a></li>
+                                <li><a href="mujer-calzado.html">Calzado</a></li>
+                                <li><a href="mujer-bolsos.html">Bolsos</a></li>
+                                <li><a href="mujer-accesorios.html">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">VARÓN</a>
+                            <ul class="submenu">
+                                <li><a href="varon-ropa.html">Ropa</a></li>
+                                <li><a href="varon-calzado.html">Calzado</a></li>
+                                <li><a href="">Bolsos</a></li>
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">NIÑO</a>
+                            <ul class="submenu">
+                                <li><a href="">Ropa</a></li>
+                                <li><a href="">Calzado</a></li>                        
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>                        
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">UNISEX</a>
+                            <ul class="submenu">
+                                <li><a href="">Ropa</a></li>
+                                <li><a href="">Calzado</a></li>
+                                <li><a href="">Accesorios</a></li>                            
+                                <li><a href="">Ofertas</a></li>
+                            </ul> 
+                        </li>
+                        <li><a href="">JOYERIA</a></li>
+                        <li><a href="">PERFUMES</a></li>                                                           
+                        <li><a href="">TRENDING</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>                    
+                    </ul>
+                </nav>
+            </div>
+            <div class="bloqueContiguo">
+                <form class="barraBusqueda">
+                    <input type="text" placeholder="Buscar..." />
+                    <a href=""><i class="fas fa-search lupa"></i></a>                           
+                </form>
+                <div class="iconosAcciones">
+                    <a href="cuenta.html"><i class="fas fa-user"></i></a>
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    <a href=""><i class="fas fa-camera"></i></a>
+                    <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <nav class="menuMovil" id="menuMovil">
+            <ul>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">MUJER <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="mujer-ropa.html">Ropa</a></li>
+                        <li><a href="mujer-calzado.html">Calzado</a></li>
+                        <li><a href="mujer-bolsos.html">Bolsos</a></li>
+                        <li><a href="mujer-accesorios.html">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">VARÓN <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="varon-ropa.html">Ropa</a></li>
+                        <li><a href="varon-calzado.html">Calzado</a></li>
+                        <li><a href="">Bolsos</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">NIÑO <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="">Ropa</a></li>
+                        <li><a href="">Calzado</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">UNISEX <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="">Ropa</a></li>
+                        <li><a href="">Calzado</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li><a href="" class="menuMovilLink">JOYERIA</a></li>
+                <li><a href="" class="menuMovilLink">PERFUMES</a></li>
+                <li><a href="" class="menuMovilLink">TRENDING</a></li>
+                <li><a href="contacto.html" class="menuMovilLink">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>    
+        <div class="bodyContacto">
+            <form class="formularios">
+                <h1 class="titulos">Registrate</h1>
+                <a href="" style="color:grey;"><p>Ya estoy registrado / iniciar sesion<br><br></p></a>
+
+                <div class="campo">
+                    <input type="text" id="nombre" placeholder="" required>
+                    <label for="nombre">NOMBRE Y APELLIDOS*</label>
+                </div>
+
+                <div class="campo">
+                    <input type="email" id="email" placeholder="" required>
+                    <label for="email">EMAIL*</label>
+                </div>
+
+                <div class="campo">
+                    <input type="tel" id="telefono" placeholder="" required>
+                    <label for="telefono">TELEFONO*</label>
+                </div>
+
+                <div class="campo">
+                    <input type="text" id="mensaje" placeholder="" required>
+                    <label for="mensaje">NOMBRE DE USUARIO*</label>
+                </div>
+
+                <div class="enviar">
+                    <input type="image" src="imagenes-usadas/enviarBoton2.jpg" width="200px">
+                </div>
+            </form>
+
+            <div class="fondoContacto">
+                <img src="imagenes-usadas/lacoste jugando.gif">
+            </div> 
+        </div>
+    </body>
+
+    <footer>
+        <div class="infoFooter">
+            <div class="primeraLista">
+                <ul>
+                    <li>SIGUENOS</li>
+                    <li>
+                        <div class="followUs">
+                            <ul>
+                                <li class="iconosFooter"><a href="https://www.youtube.com/"><img src="imagenes-usadas/youtube.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://x.com/home?lang=es"><img src="imagenes-usadas/twitter.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.tiktok.com/es/"><img src="imagenes-usadas/tiktok.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://es.linkedin.com/"><img src="imagenes-usadas/linkedin.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.instagram.com/"><img src="imagenes-usadas/instagram.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.facebook.com/"><img src="imagenes-usadas/facebook.webp" width="40px"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="lowcostAños"><img src="imagenes-usadas/90añosLowcost.gif"></div>
+            <div class="segundasListas">
+                <ul>
+                    <li class="encabezadosFooter">Informacion General</li>
+                    <li><a href="">255 Sands Ave., España, NV 89169</a></li>
+                    <li><a href="">725-259-0001</a></li>
+                </ul> 
+                <ul>
+                    <li class="encabezadosFooter">Hazte asociado</li>
+                    <li><a href="">Partnerships</a></li>                
+                </ul> 
+                <ul>
+                    <li class="encabezadosFooter">Recursos</li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Suscripcion revista</a></li>
+                    <li><a href="">Calendario</a></li>
+                </ul>
+                <ul>
+                    <li class="encabezadosFooter">Sobre nosotros</li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Inversionistas</a></li>
+                    <li><a href="">Trayecto</a></li>
+                    <li><a href="">Trending brand</a></li>
+                    <li><a href="">valores</a></li>
+                </ul>   
+            </div>
+        </div>
+        <div class="lineaFooter">
+            <hr>
+        </div>
+        <div class="finalFooter">
+            <hr class="separador">
+            <ul>                
+                <li>Terms of use</li>
+                <li>Privacy policy</li>
+                <li>Your privacy choices</li>
+                <li>©2025 Lowcost Entertainment Group, LLC</li>
+            </ul>
+        </div>                 
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuMovil = document.getElementById('menuMovil');
+
+        hamburger.addEventListener('click', function() {
+            menuMovil.classList.toggle('abierto');
+            hamburger.classList.toggle('activo');
+        });
+
+        document.querySelectorAll('.menuMovilBtn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const submenu = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                const estaAbierto = submenu.classList.contains('abierto');
+
+                document.querySelectorAll('.submenuMovil').forEach(function(s) {
+                    s.classList.remove('abierto');
+                });
+                document.querySelectorAll('.menuMovilBtn i').forEach(function(ic) {
+                    ic.style.transform = 'rotate(0deg)';
+                });
+
+                if (!estaAbierto) {
+                    submenu.classList.add('abierto');
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOWCOST</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+    </head>
+    <header>
+        <div class="listaPadreHeader"> 
+            <div class="barraHeader">
+                <div class="logo">
+                    <a href="index.html"><img src="imagenes-usadas/lacoste square logo.png" width="180px"></a>
+                </div>
+                <nav class="secciones">
+                    <ul>
+                        <li class="menuRaiz">
+                            <a href="">MUJER</a>
+                            <ul class="submenu">
+                                <li><a href="mujer-ropa.html">Ropa</a></li>
+                                <li><a href="mujer-calzado.html">Calzado</a></li>
+                                <li><a href="mujer-bolsos.html">Bolsos</a></li>
+                                <li><a href="mujer-accesorios.html">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">VARÓN</a>
+                            <ul class="submenu">
+                                <li><a href="varon-ropa.html">Ropa</a></li>
+                                <li><a href="varon-calzado.html">Calzado</a></li>
+                                <li><a href="">Bolsos</a></li>
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">NIÑO</a>
+                            <ul class="submenu">
+                                <li><a href="">Ropa</a></li>
+                                <li><a href="">Calzado</a></li>                        
+                                <li><a href="">Accesorios</a></li>
+                                <li><a href="">Ropa interior</a></li>
+                                <li><a href="">Ofertas</a></li>
+                            </ul>                        
+                        </li>
+                        <li class="menuRaiz">
+                            <a href="">UNISEX</a>
+                            <ul class="submenu">
+                                <li><a href="">Ropa</a></li>
+                                <li><a href="">Calzado</a></li>
+                                <li><a href="">Accesorios</a></li>                            
+                                <li><a href="">Ofertas</a></li>
+                            </ul> 
+                        </li>
+                        <li><a href="">JOYERIA</a></li>
+                        <li><a href="">PERFUMES</a></li>                                                           
+                        <li><a href="">TRENDING</a></li>
+                        <li><a href="contacto.html">CONTACTO</a></li>                    
+                    </ul>
+                </nav>
+            </div>
+            <div class="bloqueContiguo">
+                <form class="barraBusqueda">
+                    <input type="text" placeholder="Buscar..." />
+                    <a href=""><i class="fas fa-search lupa"></i></a>                           
+                </form>
+                <div class="iconosAcciones">
+                    <a href="cuenta.html"><i class="fas fa-user"></i></a>
+                    <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    <a href=""><i class="fas fa-camera"></i></a>
+                    <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <nav class="menuMovil" id="menuMovil">
+            <ul>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">MUJER <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="mujer-ropa.html">Ropa</a></li>
+                        <li><a href="mujer-calzado.html">Calzado</a></li>
+                        <li><a href="mujer-bolsos.html">Bolsos</a></li>
+                        <li><a href="mujer-accesorios.html">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">VARÓN <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="varon-ropa.html">Ropa</a></li>
+                        <li><a href="varon-calzado.html">Calzado</a></li>
+                        <li><a href="">Bolsos</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">NIÑO <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="">Ropa</a></li>
+                        <li><a href="">Calzado</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ropa interior</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="menuMovilRaiz">
+                    <button class="menuMovilBtn">UNISEX <i class="fas fa-chevron-down"></i></button>
+                    <ul class="submenuMovil">
+                        <li><a href="">Ropa</a></li>
+                        <li><a href="">Calzado</a></li>
+                        <li><a href="">Accesorios</a></li>
+                        <li><a href="">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li><a href="" class="menuMovilLink">JOYERIA</a></li>
+                <li><a href="" class="menuMovilLink">PERFUMES</a></li>
+                <li><a href="" class="menuMovilLink">TRENDING</a></li>
+                <li><a href="contacto.html" class="menuMovilLink">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <body>
+        <div class="centro">
+            <div class="fondoCaiman">
+                <img src="imagenes-usadas/fondo beige_Mesa de trabajo 1.png">
+            </div>
+            <div class="textoEncima"><p>NUEVAS TENDENCIAS!</p></div>
+            <div class="gator"><img src="imagenes-usadas/lacosteJugando.gif"></div> 
+            <div class="mujerNegro"><img src="imagenes-usadas/blancaNegra.png"></div>
+            <div class="hombreBlanco"><img src="imagenes-usadas/negroBlanco.png"></div>
+            <div class="negroBlancoSentado"><img src="imagenes-usadas/negroBlancoSentado.png"></div>
+        </div>
+
+        <div class="seccionNoticias">
+            <div class="seccion1">
+                <ul>
+                    <li><img src="imagenes-usadas/zapatosBeige.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">La tendencia de las sandalias<br> moca de este verano te tentara a <br> aventurarte mas alla del negro</a></li>
+                    <li class="fechas">12 de mayo de 2025</li>
+                </ul>
+                <ul>
+                    <li><img src="imagenes-usadas/2modelos.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">Oda al look de Keira Knightley y <br> Jamie Dornan a principios de los<br> 2000</a></li>
+                    <li class="fechas">11 de mayo de 2025</li>
+                </ul>
+                <ul>
+                    <li><img src="imagenes-usadas/vestidoBlanco.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">El sombrero de rafia que se lleva <br> esta temporada no es el que <br> esperas</a></li>
+                    <li class="fechas">10 de mayo de 2025</li>
+                </ul>
+            </div>
+
+            <div class="seccion2">
+                <ul>
+                    <li><img src="imagenes-usadas/jennaOrtega.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">Jenna ortega elije el vestido mas <br>iconico de Formara Yuino</a></li>
+                    <li class="fechas">9 de mayo de 2025</li>
+                </ul>
+                <ul>
+                    <li><img src="imagenes-usadas/bolsoBeige.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">Todos los bolsos que seran <br> tendencia esta primavera-verano <br>2025:colores,modelos y formas de <br>incorporarlos</a></li>
+                    <li class="fechas">7 de mayo de 2025</li>
+                </ul>
+                <ul>
+                    <li><img src="imagenes-usadas/parejaTendencia.webp" width="300px"></li>
+                    <li class="textoSeccionNoticias"><a href="">El look formado por basicos <br> perfectos  que Kylie Jenner llevo a <br>una cita de lo mas divertida con<br> Taron Edgerton</a></li>
+                    <li class="fechas">3 de mayo de 2025</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="cuadroSiguiente">
+            <a href=""><p>SIGUIENTE</p></a>     
+        </div>
+    </body>
+    <footer>
+        <div class="infoFooter">
+            <div class="primeraLista">
+                <ul>
+                    <li>SIGUENOS</li>
+                    <li>
+                        <div class="followUs">
+                            <ul>
+                                <li class="iconosFooter"><a href="https://www.youtube.com/"><img src="imagenes-usadas/youtube.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://x.com/home?lang=es"><img src="imagenes-usadas/twitter.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.tiktok.com/es/"><img src="imagenes-usadas/tiktok.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://es.linkedin.com/"><img src="imagenes-usadas/linkedin.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.instagram.com/"><img src="imagenes-usadas/instagram.webp" width="40px"></a></li>
+                                <li class="iconosFooter"><a href="https://www.facebook.com/"><img src="imagenes-usadas/facebook.webp" width="40px"></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="lowcostAños"><img src="imagenes-usadas/90añosLowcost.gif"></div>
+            <div class="segundasListas">
+                <ul>
+                    <li class="encabezadosFooter">Informacion General</li>
+                    <li><a href="">255 Sands Ave., España, NV 89169</a></li>
+                    <li><a href="">725-259-0001</a></li>
+                </ul> 
+                <ul>
+                    <li class="encabezadosFooter">Hazte asociado</li>
+                    <li><a href="">Partnerships</a></li>                
+                </ul> 
+                <ul>
+                    <li class="encabezadosFooter">Recursos</li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Suscripcion revista</a></li>
+                    <li><a href="">Calendario</a></li>
+                </ul>
+                <ul>
+                    <li class="encabezadosFooter">Sobre nosotros</li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Inversionistas</a></li>
+                    <li><a href="">Trayecto</a></li>
+                    <li><a href="">Trending brand</a></li>
+                    <li><a href="">valores</a></li>
+                </ul>   
+            </div>
+        </div>
+        <div class="lineaFooter">
+            <hr>
+        </div>
+        <div class="finalFooter">
+            <hr class="separador">
+            <ul>                
+                <li>Terms of use</li>
+                <li>Privacy policy</li>
+                <li>Your privacy choices</li>
+                <li>©2025 Lowcost Entertainment Group, LLC</li>
+            </ul>
+        </div>                 
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const menuMovil = document.getElementById('menuMovil');
+
+        hamburger.addEventListener('click', function() {
+            menuMovil.classList.toggle('abierto');
+            hamburger.classList.toggle('activo');
+        });
+
+        document.querySelectorAll('.menuMovilBtn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const submenu = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                const estaAbierto = submenu.classList.contains('abierto');
+
+                document.querySelectorAll('.submenuMovil').forEach(function(s) {
+                    s.classList.remove('abierto');
+                });
+                document.querySelectorAll('.menuMovilBtn i').forEach(function(ic) {
+                    ic.style.transform = 'rotate(0deg)';
+                });
+
+                if (!estaAbierto) {
+                    submenu.classList.add('abierto');
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+    </script>
+</html>
